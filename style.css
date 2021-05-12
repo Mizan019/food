@@ -92,7 +92,7 @@ h4{
 /* CSS for Food search*/
 
 .searchbar{
-    background-image: url(./bg.jpg);
+    background-image: url(../bg.jpg);
     padding: 6% 0;
     background-size: cover;
     background-repeat: no-repeat;
