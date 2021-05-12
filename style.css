@@ -1,0 +1,244 @@
+/*
+    Athor- Mizan
+    Theme- food 
+    Version- 1.0
+    */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*CSS for all*/
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.726);
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    line-height: 3rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 15%;
+    left: 30%;
+    font-size: 1.5rem;
+}
+.text-white{
+    color: white;
+}
+.image-curve{
+    border-radius: 10px;
+}
+h4{
+    line-height: 1.5rem;
+}
+/* CSS for header*/
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 35px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.menu ul li a{
+    color: rgba(255, 0, 0, 0.726);
+}
+.menu ul li a:hover{
+    color: red;
+}
+
+/* CSS for Food search*/
+
+.searchbar{
+    background-image: url(./Image/bg.jpg);
+    padding: 6% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.searchbar input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/* CSS for Food Cetagories*/
+
+.cetagories{
+    padding: 4% 0;
+}
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/* CSS for Foods*/
+
+.product{
+    background-color: rgb(214, 200, 200);
+}
+.food{
+    width: 42%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background: #fff;
+}
+.food-image{
+    width: 20%;
+    float: left;
+    margin-right: 8%;
+}
+.food-dis{
+    width: 70%;
+    float: left;
+}
+/* CSS for Letest Offer*/
+.offer{
+    width: 48%;
+    float: left;
+    position: relative;
+    margin-right: 2%;
+}
+.offer-image{
+    margin-top: 1rem;
+}
+.offer-text{
+    position: absolute;
+    bottom: 20%;
+    left: 0%;
+    font-size: 2rem;
+    background: rgba(14, 12, 12, 0.452);
+    padding: 2% 22%;
+}
+.sale{
+    width: 50%;
+    float: left;
+}
+.sale-food{
+    width: 50%;
+}
+.food-item{
+    float: left;
+    width: 42%;
+    margin-bottom: .5rem;
+}
+.food-dis a{
+    padding: 2% 23%;
+}
+
+/* CSS for Mobile size*/
+@media only screen and (max-width:768px){
+    .logo{
+        width: 92%;
+        float: none;
+        text-align: center;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .searchbar{
+        padding: 10% 0;
+    }
+    .searchbar input[type="search"]{
+        width: 90%;
+        margin-bottom: 2%;
+        padding: 1%;
+    }
+    .btn{
+        width: 95%;
+        padding: 2%;
+    }
+    .cetagories{
+        padding: 10% 0;
+    }
+    .box-3{
+        width: 93%;
+        margin: 2% auto;
+    }
+    h2{
+        margin: 5% auto;
+    }
+    .food{
+        width: 92%;
+        border-radius: 5%;
+        height: 10%;
+        padding: 15% 0;
+    }
+    .food-image{
+        width: 30%;
+        margin-left: 2%;
+        margin-right: 7%;
+    }
+    .food-dis{
+        width: 60%;
+    }
+    .offer{
+        width: 93%;
+        float: none;
+        display: block;
+    }
+    .sale{
+        width: 100%;
+        float: none;
+        margin-top: 5%;
+    }
+    .food-item{
+        margin-right: 8%;
+        width: 42%;
+    }
+    .sale-food{
+        width: 100%;
+    }
+    .float-text{
+        left: 22%;
+    }
+    .offer-text{
+        padding: 2% 15%;
+    }
+}
