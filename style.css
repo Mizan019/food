@@ -146,7 +146,7 @@ h4{
     margin-right: 2%;
 }
 .offer-image{
-    margin-top: .5rem;
+    margin-top:;
 }
 .offer-text{
     position: absolute;
@@ -154,7 +154,7 @@ h4{
     left: 0%;
     font-size: 2rem;
     background: rgba(14, 12, 12, 0.452);
-    padding: 2% 20%;
+    padding: 2% 22%;
 }
 .sale{
     width: 50%;
